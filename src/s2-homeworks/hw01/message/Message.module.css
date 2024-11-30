@@ -1,0 +1,50 @@
+.message {
+    max-width: 1280px;
+    height: auto;
+    margin-bottom: 47px;
+    justify-content: flex-end;
+}
+
+.imageAndText {
+    max-width: 640px;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: end;
+}
+
+.imageAndText img {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+}
+
+.text {
+    max-width: 472px;
+    min-height: 60px;
+    border-radius: 10px;
+    background-color: #0066CC;
+    padding: 8px 13px;
+}
+
+.text:after {
+
+}
+
+.name {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+
+.messageText {
+    font-size: 16px;
+    color: #fff;
+    
+}
+
+.time {
+    font-size: 10px;
+    font-weight: 700;
+}

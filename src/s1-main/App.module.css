@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+.App {
+    --header_height: 60px;
+}
+
+.hw {
+    display: flex;
+    justify-content: center;
+
+}
+
+.hwTitle {
+    
+    margin: 50px;
+    font-size: 22px;
+    font-weight: 500;
+}

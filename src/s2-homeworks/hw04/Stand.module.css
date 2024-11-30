@@ -1,0 +1,90 @@
+.stand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin: 20px 20px ;
+    
+}
+.superInputs {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #D1D1D1;
+}
+.error {
+    border: 1px solid #CC1439;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-right: 20px;
+    
+}
+.button_default {
+    width: 130px;
+    height: 30px;
+    padding: 10px;
+    background-color: #0066CC;
+    color: white;
+    width: 700;
+    border-radius: 3px;
+    border: none;
+}
+.button_default:hover {
+    background-color: #0080FF;
+}
+.button_red {
+    width: 130px;
+    height: 30px;
+    width: 700;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    background-color: #CC1439;
+    color: white;
+
+}
+.button_red:hover {
+    background-color: #FF1A47;
+}
+
+.button_disable {
+    width: 130px;
+    height: 30px;
+    width: 700;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    background-color: #004D99;
+    color: white;   
+}
+
+.button_secondary {
+    width: 130px;
+    height: 30px;
+    width: 700;
+    border-radius: 3px;
+    border: 1px solid #0066CC;
+    padding: 10px;
+    background-color: white;
+    color: #0066CC;
+
+}
+.button_secondary:hover {
+    background-color: #E5F0FA;
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
