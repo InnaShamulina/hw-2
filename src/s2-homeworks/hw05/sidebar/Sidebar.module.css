@@ -1,30 +1,37 @@
 .sidebar {
    width: 320px;    
-   height: 720px;
+   height: 100%;
    background-color: white;
    display: flex;
    flex-direction: column;
    padding: 24px;
-   position: absolute;
-   display: none;
+   position: fixed;
+   z-index: 20;
+   left: -320px;
+   top: 0px;
    
 }
 
 .sidebar.open {
-   
-  
-   
-   
+    position: fixed;
+    left:0px;
+    
+       
 }
 
 .background {
-   position: relative;
-   width: 1280px;
-   height: 720px;
-   
+   position: fixed;
+   z-index: 10;
+   width: 100%;
+   height: 100%;
+   background-color: #D1D1D1;
+   opacity: 0.5;
+
+
    
    
 }
+/*  экран прослойка с затемением */
 
 .nav {
    display: flex;
@@ -60,7 +67,8 @@
 }
 
 .close img {
-   
+  height: 24px;
+  width: 24px; 
    
    
 }
