@@ -1,5 +1,34 @@
 .buttonsContainer {
+  width: 200px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonsContainer button {
+  width: 90px;
+  height: 35px;
+  padding: 5px;
 }
 
 .editableSpanContainer {
+  width: 160px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.saveBtn {
+  background-color: rgb(107, 187, 236);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.restoreBtn {
+  color: rgb(107, 187, 236);
+  border-color: rgb(107, 187, 236);
+  border-radius: 3px;
+  font-weight: 600;
+  background-color: white;
 }

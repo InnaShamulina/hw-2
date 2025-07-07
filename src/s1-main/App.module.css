@@ -1,19 +1,21 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 .App {
-    --header_height: 60px;
+  --header_height: 60px;
 }
 
 .hw {
-    display: flex;
-    justify-content: center;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
 }
 
 .hwTitle {
-    
-    margin: 50px;
-    font-size: 22px;
-    font-weight: 500;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  font-size: 22px;
+  font-weight: 500;
 }
