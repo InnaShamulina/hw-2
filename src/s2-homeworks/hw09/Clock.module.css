@@ -1,14 +1,30 @@
 .buttonsContainer {
+  width: 180px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
 }
-
-.clock {
+.buttonsContainer button {
+  padding: 5px 25px;
+  background-color: rgb(107, 187, 236);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-weight: 400;
+  align-self: center;
+}
+.buttonsContainer button:active {
+  background-color: rgb(9, 74, 114);
 }
 
 .watch {
-}
-
-.watch strong {
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .more {
+  font-size: 18px;
+  color: rgba(50, 46, 46, 0.536);
+  margin-bottom: 20px;
 }
