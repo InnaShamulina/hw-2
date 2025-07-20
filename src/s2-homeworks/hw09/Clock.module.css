@@ -14,8 +14,9 @@
   font-weight: 400;
   align-self: center;
 }
-.buttonsContainer button:active {
-  background-color: rgb(9, 74, 114);
+
+button:disabled {
+  background-color: rgb(120, 131, 137);
 }
 
 .watch {

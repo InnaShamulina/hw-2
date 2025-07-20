@@ -1,3 +1,28 @@
 .loader {
-    /*свг и/или анимация*/
+  width: 40px;
+  height: 40px;
+  border: 4px solid #ccc; /* светлая граница */
+  border-top: 4px solid rgb(107, 187, 236); /* тёмная часть, которая «ведёт» при вращении */
+  border-radius: 50%;
+  animation: spin 1s linear infinite; /* вращение без остановки */
+  margin: 20px auto; /* выравнивание по центру, не обязательно */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.button {
+  padding: 5px 25px;
+  background-color: rgb(107, 187, 236);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-weight: 400;
+  align-self: center;
 }
