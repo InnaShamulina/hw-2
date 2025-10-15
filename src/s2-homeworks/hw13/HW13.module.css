@@ -1,22 +1,47 @@
 .buttonsContainer {
+  width: 600px;
+  margin-bottom: 30px;
+}
+.buttonsContainer button {
+  padding: 5px 12px;
+  background-color: white;
+  border: 2px solid rgb(107, 187, 236);
+  border-radius: 5px;
+  margin-right: 30px;
+  color: rgb(56, 94, 118);
+}
+button:disabled {
+  background-color: rgba(255, 255, 255, 0.418);
+  border: 2px solid rgb(171, 179, 185);
+  color: rgb(171, 179, 185);
 }
 
 .responseContainer {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 50px;
 }
 
 .imageContainer {
 }
 
 .image {
+  margin-right: 40px;
 }
 
-.textContainer{
+.textContainer {
+  align-items: center;
 }
 
 .code {
+  font-size: 44px;
+  margin-bottom: 10px;
 }
 
 .text {
+  font-size: 24px;
 }
 .info {
+  font-size: 24px;
 }

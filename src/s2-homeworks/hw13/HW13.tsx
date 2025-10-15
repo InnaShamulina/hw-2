@@ -34,7 +34,8 @@ const HW13 = () => {
     axios
       .post(url, { success: x })
       .then((res) => {
-        setCode("Код 200!");
+        console.log(res);
+        setCode(`Код ${res.status}`);
         setImage(success200);
         setText(res.data.errorText);
         setInfo(res.data.info);
@@ -43,19 +44,22 @@ const HW13 = () => {
       .catch((e) => {
         console.log(e);
         if (e.response.status === 500) {
+          setCode(`Ошибка ${e.response.status}!`);
           setImage(error500);
           setText(e.response.data.errorText);
           setInfo(e.response.data.info);
         }
         if (e.response.status === 400) {
+          setCode(`Ошибка ${e.response.status}!`);
           setImage(error400);
           setText(e.response.data.errorText);
           setInfo(e.response.data.info);
         }
         if (e.response.status === 0) {
+          setCode("Error!");
           setImage(errorUnknown);
-          setText("Error!");
-          setInfo(e.message + " " + e.name);
+          setText(e.message);
+          setInfo(e.name);
         }
 
         // дописать
